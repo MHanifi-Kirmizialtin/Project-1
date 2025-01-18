@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: "DynaPuff", serif; */
+  font-family: "Open Sans", serif;
+}
+
+/* ! HEADER */
+/* ! ******************* */
+header {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  padding: 1rem;
+}
+header a img {
+  width: 60px;
+}
+
+header .sign_in {
+  float: right;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  color: #920101;
+  font-size: 1.2rem;
+}
+header .sign_in a {
+  color: #920101;
+  font-weight: 700;
+  text-decoration: none;
+}
+header .sign_in a:hover {
+  border-bottom: 3px solid #920101;
+}
+
+/* ! NAV STICKY */
+/* ! ********************* */
+nav.sticky {
+  background-color: #fff33b;
+  background-image: linear-gradient(147deg, #fff33b 0%, #ff2525 74%);
+  text-align: center;
+  padding: 2rem;
+}
+
+nav.sticky a {
+  color: black;
+  font-family: "DynaPuff", serif;
+  text-decoration: none;
+  margin-right: 0.8rem;
+  font-size: 1.1rem;
+}
+nav.sticky a:hover {
+  color: white;
+}
+
+/* ! NAV BANNER */
+/* ! ********************* */
+
+nav.banner {
+  position: relative;
+  line-height: 2rem;
+}
+
+nav.banner img {
+  width: 100%;
+  max-height: calc(100vh - 202px);
+  /* height: 100%; */
+}
+
+nav.banner .there {
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  font-family: "Open Sans", serif;
+}
+
+nav.banner .there h2 {
+  color: white;
+  font-size: 2.4rem;
+  text-shadow: 0 3px 4px black;
+}
+
+nav.banner .there h3 {
+  color: #920101;
+  font-size: 1rem;
+}
+
+nav.banner .there button {
+  padding: 0.7rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(226, 178, 186);
+  font-weight: 700;
+}
+nav.banner .there button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+main.lorem p {
+  border: 2px solid red;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma;
+  position: relative;
+}
+
+section.slack a img {
+  width: 50px;
+  position: fixed;
+  position: absolute;
+  bottom: -23rem;
+  right: 2rem;
+}
